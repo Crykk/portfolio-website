@@ -940,7 +940,13 @@ body.dark .work-links img {
 /* --------------------------------- */
 /* ----- Skills -----*/
 /* --------------------------------- */
-
+#scene{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: var(--gutter-x-large);
+  padding-block-start: var(--gutter-x-large);
+}
 .skills-imgs {
   display: flex;
   flex-flow: row wrap;
@@ -983,9 +989,6 @@ body.dark .work-links img {
     block-size: 55px;
     inline-size: 55px;
   }
-}
-#scene{
-
 }
 
 /* --------------------------------- */
